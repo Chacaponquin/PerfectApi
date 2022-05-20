@@ -4,7 +4,6 @@ import { createTeam } from "../../helpers/tasks/teams/createTeam.js";
 export const teamSchema = gql `
   input TeamInput {
     name: String!
-    foundation_year: String
     league: String!
   }
 
